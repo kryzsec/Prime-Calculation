@@ -2,7 +2,7 @@
 #define colors_h
 
 
-#include <cstring>
+#include <string>
 using std::string;
 
 string purple = "\033[95m";
