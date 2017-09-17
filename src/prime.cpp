@@ -38,8 +38,9 @@ void init(uint64_t a){
 } 
 /**/
 int check_if_prime(uint64_t t, vector<auto>& vec){
+	int root = sqrt(t);
 	for(int it = 0; it<vec.size(); it++){
-		if(sqrt(t)<vec[it]){ //this line changed the time to calculate the first million from nearly 40 minutes to less than 1 minute. 
+		if(root<vec[it]){ //this line changed the time to calculate the first million from nearly 40 minutes to less than 1 minute. 
 			return 1;
 		}else if(t%vec[it]==0){ //it used to just contain this which meant it would itterate throuh every prime, even if they were too big.
 			return 0;
