@@ -17,6 +17,7 @@ and every red '.' signifies 1,000,000 primes output. Once it is complete in calc
 requested it will break down the primes into their endings. For instance in the first 10 primes are as follows: 
 2, 3, 5, 7, 11, 13, 17, 19, 23, 29
 So the breakdown of their endings is
+```
 1: 1 10%
 2: 1 10%
 3: 3 30%
@@ -24,6 +25,7 @@ So the breakdown of their endings is
 7: 2 20%
 9: 2 20%
 for a total of 10. 
+```
 
 
 # Futre Features
